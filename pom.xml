@@ -14,7 +14,7 @@
     <parent>
         <groupId>com.oracle.servicebus</groupId>
         <artifactId>sbar-project-common</artifactId>
-        <version>${oracleVersion}</version>
+        <version>12.2.1-3-0</version>
         <relativePath/>
     </parent>
 
@@ -29,7 +29,7 @@
         <plugin>
           <groupId>com.oracle.servicebus.plugin</groupId>
           <artifactId>oracle-servicebus-plugin</artifactId>
-          <version>${oracleVersion}</version>
+          <version>12.2.1-3-0</version>
           <configuration>
             <oracleHome>${oracleHome}</oracleHome>
             <oracleServerUrl>${sbconsoleUrl}</oracleServerUrl>
